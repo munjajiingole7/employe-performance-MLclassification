@@ -1,12 +1,12 @@
 **Employee Performance Rating Prediction Project Overview :**
-
+------
 This project aims to build a machine learning model to predict employee performance ratings. The dataset includes various features related to employees' demographics, job roles, satisfaction levels, and other attributes. The goal is to achieve high train and test accuracy and identify the top features influencing performance ratings.
 
-**Business Problem :**
-
+# Business Problem :
+-------
 Employee performance rating is a critical metric for organizations to assess their workforce's effectiveness. Predicting performance ratings can help management make informed decisions about promotions, salary hikes, and identifying areas for employee development.
 
-**Dataset :**
+# Dataset :
 
 The dataset consists of the following columns:
 
@@ -66,17 +66,17 @@ Attrition: Employee attrition status
 
 PerformanceRating: Performance rating (output column)
 
-**Model :**
+# Model :
 
 The model used for this project is the DecisionTreeClassifier. The dataset was split into training and testing sets, and the model was trained and evaluated to predict the performance rating.
 
-**Results :**
+# Results :
 
 Train Accuracy: 1.0
 
 Test Accuracy: 0.879
 
-**The top 5 features affecting the performance rating are:**
+# The top 5 features affecting the performance rating are:
 
 EmpEnvironmentSatisfaction
 
@@ -88,7 +88,7 @@ EmpDepartment
 
 EmpNumber
 
-**Conclusion :**
+# Conclusion :
 
 The model successfully predicts employee performance ratings with high accuracy. The identified top features provide valuable insights into the key factors influencing performance. This information can help organizations focus on these areas to improve overall employee performance and satisfaction.
 
